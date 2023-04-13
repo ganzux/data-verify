@@ -8,6 +8,12 @@ function App() {
   return (
       <Router>
         <div>
+          <header>
+            <h1>Simple Tracker ProMx</h1>
+            <nav>
+              {/* Navigation links */}
+            </nav>
+          </header>
           <nav>
             <ul>
               <li>
