@@ -42,7 +42,7 @@ function Home() {
                     </option>
                 ))}
             </select>
-            {selectedImage && <div><img src={selectedImage} alt="Selected Image" /></div>}
+            {selectedImage && <div align="center"><img src={selectedImage} alt="Selected Image" /></div>}
         </div>
     );
 }
